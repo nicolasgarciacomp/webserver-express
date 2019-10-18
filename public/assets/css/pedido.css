@@ -1,0 +1,30 @@
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  cursor: pointer;
+}
+
+.box {
+	width: 500px;
+	height: 740px;
+	float: right;
+	margin-top: 1px;
+	margin-bottom: 100px;
+	margin-right: 400px;
+	margin-left: 10px;
+	font-weight: bold;
+	background-color: white;
+	border: solid;
+}
+
+footer {
+	font-size: 21px;
+	color: black;
+	margin-left: 20px;
+	margin-top: 200px;
+}
+
+form {
+	margin-left: 20px;
+	font-weight: bold;
+}

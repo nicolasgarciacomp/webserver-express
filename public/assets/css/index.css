@@ -1,0 +1,19 @@
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  cursor: pointer;
+}
+
+.card-deck {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+	font-size: 21px;
+	color: black;
+	margin-left: 20px;
+	margin-top: 200px;
+}

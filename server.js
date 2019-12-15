@@ -16,21 +16,18 @@ hbs.registerHelper('getAnio', () => {
 });
 
 app.get('/', (req, res) => {
-
 	res.render('home', {
 		nombre: 'Nicolas'
 	});
 });
 
 app.get('/about', (req, res) => {
-
 	res.render('about', {
 		nombre: 'Nicolas'
 	});
 });
 
 app.get('/data', (req, res) => {
-
 	res.send('Hola Mundo Express!');
 })
 
